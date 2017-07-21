@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file original="" product-name="DIU.CookieBar" source-language="de" datatype="plaintext">
+	<file original="" product-name="DIU.CookieBar" source-language="en" target-language="de" datatype="plaintext">
 		<body>
-			<trans-unit id="cookie.description" xml:space="preserve">
-				<source>Diese Internetseite verwendet Cookies, um die Nutzererfahrung zu verbessern und den Benutzern bestimmte Dienste und Funktionen bereitzustellen.</source>
-			</trans-unit>
-			<trans-unit id="cookie.dataprotection" xml:space="preserve">
-				<source>Details</source>
-			</trans-unit>
-			<trans-unit id="cookie.allow" xml:space="preserve">
-				<source>Cookies erlauben</source>
-			</trans-unit>
-			<trans-unit id="cookie.forbid" xml:space="preserve">
-				<source>Cookies verbieten</source>
-			</trans-unit>
+            <trans-unit id="cookie.description" xml:space="preserve">
+                <source>This website is using cookies to provide a better user experiance, as well as offering special services and functions.</source>
+                <target>Diese Internetseite verwendet Cookies, um die Nutzererfahrung zu verbessern und den Benutzern bestimmte Dienste und Funktionen bereitzustellen.</target>
+            </trans-unit>
+            <trans-unit id="cookie.dataprotection" xml:space="preserve">
+                <source>Details</source>
+                <target>Details</target>
+            </trans-unit>
+            <trans-unit id="cookie.allow" xml:space="preserve">
+                <source>Allow Cookies</source>
+                <target>Cookies erlauben</target>
+            </trans-unit>
+            <trans-unit id="cookie.forbid" xml:space="preserve">
+                <source>Deny Cookies</source>
+                <target>Cookies verbieten</target>
+            </trans-unit>
+            <trans-unit id="cookie.close" xml:space="preserve">
+                <source>close</source>
+                <target>Schließen</target>
+            </trans-unit>
 		</body>
 	</file>
 </xliff>

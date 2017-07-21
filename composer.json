@@ -1,0 +1,33 @@
+{
+    "name": "diu/cookiebar",
+    "type": "neos-plugin",
+    "description": "cookieBAR integration",
+    "keywords": [
+        "flow",
+        "neos",
+        "cookiebar",
+        "cookie"
+    ],
+    "license": "MIT",
+    "require": {
+        "neos/neos": "~3.0 || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "DIU\\CookieBar\\": "Classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Hansen",
+            "email": "daniel.hansen@di-unternehmer.com",
+            "homepage": "https://www.di-unternehmer.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "neos": {
+            "package-key": "DIU.CookieBar"
+        }
+    }
+}

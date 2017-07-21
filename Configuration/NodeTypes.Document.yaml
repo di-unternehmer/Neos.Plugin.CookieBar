@@ -1,0 +1,9 @@
+'Neos.NodeTypes:Page':
+  properties:
+    speciality:
+      ui:
+        inspector:
+          editorOptions:
+            values:
+              dataProtection:
+                label: 'Datenschutz'

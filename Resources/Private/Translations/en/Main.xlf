@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="DIU.CookieBar" source-language="en" datatype="plaintext">
+		<body>
+			<trans-unit id="cookie.description" xml:space="preserve">
+				<source>EN - Diese Internetseite verwendet Cookies, um die Nutzererfahrung zu verbessern und den Benutzern bestimmte Dienste und Funktionen bereitzustellen.</source>
+			</trans-unit>
+			<trans-unit id="cookie.dataprotection" xml:space="preserve">
+				<source>Details</source>
+			</trans-unit>
+			<trans-unit id="cookie.allow" xml:space="preserve">
+				<source>YES</source>
+			</trans-unit>
+			<trans-unit id="cookie.forbid" xml:space="preserve">
+				<source>NO</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

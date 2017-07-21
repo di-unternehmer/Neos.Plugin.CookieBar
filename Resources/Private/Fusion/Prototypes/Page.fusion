@@ -1,0 +1,46 @@
+#prototype(Neos.NodeTypes:Page.Document) {
+prototype(Page) {
+	cookieBar = Neos.Fusion:Template {
+		templatePath = 'resource://DIU.CookieBar/Private/Templates/FusionObjects/CookieBar.html'
+		link = Neos.Neos:NodeUri {
+			absolute = TRUE
+			node = ${ q(site).find('[instanceof Neos.NodeTypes:Page][speciality=dataProtection]').get(0) }
+		}
+		@position = 'before closingBodyTag'
+	}
+    head {
+        stylesheets {
+            cookieBarCss = Neos.Fusion:Tag {
+                tagName = 'link'
+                omitClosingTag = FALSE
+
+                attributes {
+                    rel = 'stylesheet'
+                    href = Neos.Fusion:ResourceUri {
+                        path = 'resource://DIU.CookieBar/Public/Css/cookie.bar.css'
+                    }
+                }
+            }
+        }
+    }
+	body {
+		javascripts {
+			cookieBar = Neos.Fusion:Tag {
+				tagName = 'script'
+				attributes {
+					src = Neos.Fusion:ResourceUri {
+						path = 'resource://DIU.CookieBar/Public/JavaScript/js.cookie.js'
+					}
+				}
+			}
+            cookieBarInit = Neos.Fusion:Tag {
+                tagName = 'script'
+                attributes {
+                    src = Neos.Fusion:ResourceUri {
+                        path = 'resource://DIU.CookieBar/Public/JavaScript/cookie.bar.js'
+                    }
+                }
+            }
+		}
+	}
+}

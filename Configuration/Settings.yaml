@@ -1,0 +1,10 @@
+Neos:
+  Neos:
+    userInterface:
+      translation:
+        autoInclude:
+          DIU.CookieBar:
+            - '*'
+    fusion:
+      autoInclude:
+        DIU.CookieBar: true

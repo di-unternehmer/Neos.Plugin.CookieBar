@@ -1,8 +1,8 @@
-window.onload = function(cookieBar) {
+document.addEventListener("DOMContentLoaded", function(event) {
     if (Cookies.get('allowCookies')) {
         document.getElementById('cookieBar').style.display = 'none';
     }
-};
+});
 
 function cookieDecision(element) {
     if (element.classList.contains('allow')) {

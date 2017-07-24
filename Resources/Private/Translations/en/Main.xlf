@@ -3,7 +3,7 @@
 	<file original="" product-name="DIU.CookieBar" source-language="en" datatype="plaintext">
 		<body>
             <trans-unit id="cookie.description" xml:space="preserve">
-                <source>Our website is using cookies and Piwik. By using this website you agree for the use of cookies and Piwik. For further information click</source>
+                <source>Our website is using cookies and Piwik Pro. By using this website you agree for the use of cookies and Piwik. For further information click</source>
             </trans-unit>
             <trans-unit id="cookie.dataprotection" xml:space="preserve">
                 <source>Details</source>

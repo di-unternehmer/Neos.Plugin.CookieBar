@@ -3,12 +3,12 @@
 	<file original="" product-name="DIU.CookieBar" source-language="en" target-language="de" datatype="plaintext">
 		<body>
             <trans-unit id="cookie.description" xml:space="preserve">
-                <source>This website is using cookies to provide a better user experiance, as well as offering special services and functions.</source>
-                <target>Diese Internetseite verwendet Cookies, um die Nutzererfahrung zu verbessern und den Benutzern bestimmte Dienste und Funktionen bereitzustellen.</target>
+                <source>Our website is using cookies and Piwik. By using this website you agree for the use of cookies and Piwik. For further information click</source>
+                <target>Unsere Website verwendet Cookies und Piwik. Durch die weitere Nutzung unserer Website erklären Sie sich mit der Nutzung von Cookies einverstanden. Für weitere Informationen klicken Sie</target>
             </trans-unit>
             <trans-unit id="cookie.dataprotection" xml:space="preserve">
-                <source>Details</source>
-                <target>Details</target>
+                <source>here</source>
+                <target>hier</target>
             </trans-unit>
             <trans-unit id="cookie.allow" xml:space="preserve">
                 <source>Allow Cookies</source>

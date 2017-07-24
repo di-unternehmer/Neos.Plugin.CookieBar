@@ -1,13 +1,18 @@
 #cookieBar {
-    position: fixed;
-    width: 100%;
-    z-index: 9999;
-    background: #000;
-    bottom: 0;
-    padding: 6px 10px;
+    max-height: 130px;
+    overflow: hidden;
+    transition: max-height 500ms linear, padding 750ms linear;
 }
+
+@media only screen and (min-width:991px){
+    #cookieBar {
+        max-height: 100px;
+    }
+}
+
 .cookie__description {
-    float: left;
+    display: inline-block;
+    width: 80%;
 }
 .cookie__description p {
     line-height: 30px;
@@ -17,7 +22,7 @@
     font-size: 12px;
 }
 .cookie__decision {
-    float: right;
+    display: inline-block;
 }
 .cookie--button {
     padding: 5px;
@@ -43,4 +48,10 @@
     #cookieBar .cookie--button {
         padding: 6px 5px 2px 5px;
     }
+}
+
+#cookieBar.cookiebar__hidden {
+    max-height: 0;
+    padding: 0;
+    transition: max-height 500ms linear, padding 750ms linear;
 }

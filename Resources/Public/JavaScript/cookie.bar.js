@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 function cookieDecision(element) {
     if (element.classList.contains('allow')) {
-        Cookies.set('allowCookies', 1);
+        Cookies.set('allowCookies', 1, { expires: 365 });
     }
     if (element.classList.contains('forbid')) {
-        Cookies.set('allowCookies', 0);
+        Cookies.set('allowCookies', 0, { expires: 365 });
     }
     document.getElementById('cookieBar').classList.add('cookiebar__hidden');
 }
